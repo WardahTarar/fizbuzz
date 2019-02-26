@@ -1,12 +1,12 @@
 def fizzbuzz(number)
   if number % 3 == 0 && number % 5 == 0
-    puts "FizzBuzz"
+    "fizzbuzz"
   elsif number % 3 == 0
-    puts "Fizz"
+    "fizz"
   elsif number % 5 == 0
-    puts "Buzz"
+    "buzz"
   else
-    puts number
+    number
   end
 end
 
